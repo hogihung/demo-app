@@ -77,4 +77,4 @@ demon-strings  sconner@skynet.com     pw
 *NOTE: This demo is just enough of an application put together to demonstrate using subdomains. It is the first step towards building a multi-tenancy based application.  While it is true that you can log in using a subdomain, the sysadmin user can log in in to the demons-strings subdomain and the Sarah user can log in to the root domain.  In fact you can use just about any subdomain and you will be able to login.*
 
 
-This demo was created as an illustrative example for the blog post:  http://ognt.io/coming-soon-blog/
+This demo was created as an illustrative example for the blog post:  http://ognt.io/posts/pour-some-subdomains-on-me
