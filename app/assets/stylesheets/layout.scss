@@ -1,0 +1,36 @@
+body {
+  padding-top: 80px;
+}
+
+#flash_notice {
+  @extend .alert;
+  @extend .alert-success;
+}
+#flash_error, #flash-alert {
+  @extend .alert;
+  @extend .alert-danger;
+}
+#flash_warning {
+  @extend .alert;
+  @extend .alert-warning;
+}
+
+.navbar .right-buttons {
+  margin-right: 15px;
+}
+
+.jumbotron {
+  position: relative;
+  background: #000 url("jumbotron-bg.jpeg") center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  h1 {
+    color: beige;
+  }
+  p {
+    color: beige;
+  }
+ }
+
