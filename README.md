@@ -67,11 +67,12 @@ Now you can test out our example subdomains, for example:
 http://root.lvh.me:3000/users/sign_in
 http://demon-strings.lvh.me:3000/users/sign_in
 
+```
 Subdomain      User                   Password
 -------------------------------------------------
 root           sysadmin@demo-app.com  pw
 demon-strings  sconner@skynet.com     pw
-
+```
 
 NOTE: This application is just enough of an application put together to demonstrate using subdomains. 
       It is the first step towards building a multi-tenancy based application.  While it is true that 
