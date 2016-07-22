@@ -1,5 +1,5 @@
 # Create root system user account and system administration user
-sysadmin = User.create(name: "sysadmin", email: 'sysadmin@mdemo-app.com', password: 'Ch@ng3MeA$ap!')
+sysadmin = User.create(name: "sysadmin", email: 'sysadmin@demo-app.com', password: 'pw')
 Account.create(subdomain: 'root', owner_id: sysadmin.id)
 
 # Create a User that will be an Account owner
